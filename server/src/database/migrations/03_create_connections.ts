@@ -17,7 +17,7 @@ return knex.schema.createTable('connections', table => {
 
 
     table.timestamp('created_at')
-    .defaultTo('now()')
+    .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
     .notNullable()
 });
 }

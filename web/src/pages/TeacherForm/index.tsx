@@ -12,6 +12,8 @@ import api from '../../services/api';
 
 function TeacherForm() {
 
+    const history = useHistory();
+
     const [name, setName] = useState('');
     const [avatar, setAvatar] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
@@ -70,6 +72,7 @@ function TeacherForm() {
             schedule: scheduleItems
         }).then(() => {
             alert('Cadastro realizado com sucesso');
+            history.push('/');
         }).catch((error) => {
             alert('Erro no cadastro');
         })

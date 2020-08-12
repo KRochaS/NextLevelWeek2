@@ -36,5 +36,6 @@ para estudos online visando conectar alunos e professores de forma simples e pr√
   <img src="https://raw.githubusercontent.com/KRochaS/NextLevelWeek2/master/mobile/github/landing.jpg" height="500" >
   <img src="https://raw.githubusercontent.com/KRochaS/NextLevelWeek2/master/mobile/github/proffys.png" height="500" >
   <img src="https://raw.githubusercontent.com/KRochaS/NextLevelWeek2/master/mobile/github/favoritos.jpg" height="500" >
+  <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/mobile/github/mobile.gif" height="500"/>
 </p>
 

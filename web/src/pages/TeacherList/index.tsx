@@ -1,14 +1,12 @@
 import React, { useState, FormEvent } from 'react';
-
+import { } from 'react'
 import PageHeader from '../../Components/PageHeader';
 
 import './styles.css';
-import TeacherItem, {Teacher}  from '../../Components/TeacherItem';
+import TeacherItem, { Teacher } from '../../Components/TeacherItem';
 import Input from '../../Components/Input';
 import Select from '../../Components/Select';
 import api from '../../services/api';
-
-import './styles.css';
 
 
 
@@ -93,15 +91,27 @@ function TeacherList() {
                     <button type="submit">Buscar</button>
 
                 </form>
+
             </PageHeader>
 
 
             <main>
 
-            {teachers.map((teacher: Teacher) => {
-                return  <TeacherItem key={teacher.id} teacher={teacher}/>
-            })}
-               
+                {teachers.map((teacher: Teacher) => {
+                    return <TeacherItem key={teacher.id} teacher={teacher} />
+                })}
+
+
+                {teachers.length <= 0 && (
+                    <div className="result">
+                      
+                        <p>
+                            Nenhum proffy encontrado.
+                     </p>
+                    </div>
+                )}
+
+
 
             </main>
         </div>

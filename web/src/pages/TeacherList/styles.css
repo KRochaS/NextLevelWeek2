@@ -36,6 +36,14 @@
     margin: 3.2rem auto;
     width: 90%;
   }
+
+  .result {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
   
   @media (min-width: 700px) {
     #page-teacher-list {
@@ -59,4 +67,5 @@
       max-width: 740px;
       margin: 0 auto;
     }
+
   }

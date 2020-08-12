@@ -27,7 +27,7 @@ para estudos online visando conectar alunos e professores de forma simples e pr√
 ## :computer: Layout Web 
 <p align="center">
   <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/web/github/landing.png" width="920" >
-  <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/web/github/cadastro%20proffys.png" height="400" >
-  <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/web/github/proffys.png" height="400" >
+  <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/web/github/cadastro%20proffys.png" height="450" >
+  <img src="https://github.com/KRochaS/NextLevelWeek2/blob/master/web/github/proffys.png" height="450" >
 </p>
 
